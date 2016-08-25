@@ -1,14 +1,26 @@
-layout_spectrum: 0.4957447
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  saturation: 0.6446809
+  saturation: 0.7872341
   brandStrength: 0.6172223
   lightness: 0.3297872
-  rhythmicContrast: 0.6085106
   brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-typography_spectrum: 0.5957447
+    - '#000000'
+    - '#FDFDFD'
+    - '#818181'
+    - '#A7A7A7'
+    - '#3E3E3E'
+  rhythmicContrast: 0.6085106
+typography_spectrum: 0.09574468
+layout_spectrum: 0.9574468
 name: Chrisbillingsleywrites
